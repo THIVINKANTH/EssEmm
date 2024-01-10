@@ -1,0 +1,120 @@
+body
+{
+    background-image: linear-gradient( rgb(0, 0, 255),rgb(242, 6, 226));
+    -webkit-background-clip: text;
+    color: transparent;
+    /* background-repeat: no-repeat; */
+    /* position: absolute; */
+
+}
+#page{
+    border-radius: 5px;
+    margin: 150px;
+    margin-bottom:350px;
+    box-shadow: 4px 4px 10px 10px;
+    /* width: min(400px, 1200px); */
+    display: flex;
+    flex-wrap: wrap-reverse;
+   
+}
+@media only screen and (max-width: 600px) {
+    #page {
+        width: min(1200px, 400px);
+    }
+  }
+#welcome
+{
+    padding-top: 150px;
+    /* margin: 100px;
+    margin-top: 150px; */
+    padding: 100px;
+    padding-top: 150px;
+    /* z-index: inherit; */
+    /* width: min(400px, 1200px);    */
+}
+@media only screen and (max-width: 600px) {
+    #welcome {
+        width: min(1200px, 400px);
+    }
+  }
+#page > #loginpage
+{
+    flex: 1 0 10rem;
+}
+#loginpage
+{
+    background-color: white;
+    /* z-index: inherit; */
+    /* width: min(400px, 1200px); */
+}
+@media only screen and (max-width: 600px) {
+    #page {
+        width: min(1200px, 400px);
+    }
+  }
+.user
+{
+    color: blue;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 165px;
+    padding-bottom: 0px;
+    /* margin: 165px; */
+    /* margin-bottom: 0px; */
+    text-align: center;
+}
+#username
+{
+    text-align: center;
+}
+#input
+{
+    border-radius: 25px;
+    width: 300px;
+    height: 35px;
+    text-align:center;
+}
+.input-icons i
+{
+    position: absolute;
+}
+#login
+{
+    border-radius: 30px;
+    width: 180px;
+    height: 40px;
+    color: white;
+    background-image: linear-gradient( to right,rgb(242, 6, 226),rgb(0, 0, 255));
+    -webkit-background-clip: border-box;
+    color: transparent;
+    font-weight: bolder;
+}
+#box
+{
+   border-radius: 10px;
+   width: 17px;
+}
+#checkbox
+{
+    justify-content: center;
+}
+#footer
+{
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.regs
+{
+    padding: 7px;
+   text-decoration: none;
+    border-radius: 30px;
+    width: 180px;
+    height: 40px;
+    color: white;
+    background-image: linear-gradient( to right,rgb(242, 6, 226),rgb(0, 0, 255));
+    -webkit-background-clip: border-box;
+    color: transparent;
+    font-weight: bolder;
+    font-size: large;
+}
